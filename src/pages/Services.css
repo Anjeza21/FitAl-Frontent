@@ -1,0 +1,59 @@
+.pjesa1 {
+  background-image: url("../../public/img2.jpg");
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  color: white;
+  padding: 0 20px;
+}
+
+/* Kontenieri kryesor i menusë */
+.main-services-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    border: 1px solid #eee;
+    width: 100%;
+}
+
+/* Elementet e listës */
+.menu-item {
+    position: relative; /* E rëndësishme për pozicionimin e nën-menusë */
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.menu-item a {
+    display: block;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #444;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+/* Efekti kur kalon miun mbi rresht */
+.menu-item:hover > a {
+    color: #00acee;
+    background-color: #fafafa;
+}
+
+/* Fshehja fillestare e nën-menusë */
+.sub-services-menu {
+    display: none;
+    position: absolute;
+    left: 100%; /* Zhvendoset plotësisht në të djathtë */
+    top: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    min-width: 260px;
+    z-index: 1000;
+    border-left: 1px solid #eee;
+}
+

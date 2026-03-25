@@ -1,0 +1,10 @@
+.grayscale-filter {
+  filter: grayscale(100%);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.grayscale-filter:hover {
+  filter: grayscale(0%);
+  opacity: 1 !important;
+}

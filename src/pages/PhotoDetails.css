@@ -1,0 +1,34 @@
+.project-details {
+    background-color: #f8f9fa;
+}
+
+.detail-card {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    border-left: 5px solid #00adef; /* Vija blu në të majtë */
+}
+
+/* Ky div krijon efektin e gjysmë-rrethit blu në të djathtë */
+.icon-box {
+    background: linear-gradient(135deg, #00adef, #007bb5);
+    width: 80px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.detail-card h4 {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.detail-card p, .detail-card a {
+    font-size: 1.1rem;
+}

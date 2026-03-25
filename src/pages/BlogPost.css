@@ -1,0 +1,10 @@
+.pjesa1 {
+  background-image: url("../../public/img3.jpg");
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  color: white;
+  padding: 0 20px;
+}

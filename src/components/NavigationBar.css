@@ -1,0 +1,24 @@
+/* Hapja vetëm për Services */
+.services-hover-item:hover > .dropdown-menu {
+  display: block;
+}
+
+/* Pozicionimi i nën-menusë anash */
+.dropend-subitem {
+  position: relative;
+}
+
+.dropend-subitem:hover > .dropdown-submenu {
+  display: block;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  min-width: 260px;
+}
+
+.dropdown-submenu {
+  display: none;
+  background: white;
+  list-style: none;
+  padding: 0;
+}
